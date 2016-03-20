@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title>流程图</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.flowChart{
+			margin: 30px;
+			overflow: hidden;
+		}
+		.flowChart li {
+			color: #000;
+			width: 8%;
+			display: inline-block;
+			text-align: center;
+			float: left;
+			position: relative;
+		}
+		.flowChart li:before {
+			content: ' ';
+			width: 16px;
+			height: 16px;
+			display: block;
+			text-align: center;
+			border-radius: 8px;
+			background-color: #ccc;
+			color: #fff;
+			margin: 0 auto 5px auto;
+		}
+		.flowChart li:after {
+			content: '';
+			width: 100%;
+			height: 4px;
+			background: #ccc;
+			position: absolute;
+			left: -50%;
+			top: 6px;
+			z-index: -1;
+		}
+		.flowChart li:first-child:after {
+			width: 60%;
+			left: -10%;
+		}
+		.flowChart li.active:before, .flowChart li.active:after {
+			background: #27AE60;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<ul class="flowChart">
+		<li class="active">num1</li>
+		<li class="active">num2</li>
+		<li>num3</li>
+		<li>num4</li>
+		<li>num5</li>
+		<li>num6</li>
+		<li>num7</li>
+		<li>num8</li>
+	</ul>
+</body>
+</html>
