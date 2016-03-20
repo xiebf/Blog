@@ -1,6 +1,6 @@
 {
   "name": "Blog",
   "tagline": "a test page",
-  "body": "$ cd xiebf/Blog\r\n$ git checkout master\r\n$ git pull origin master",
+  "body": "$ cd xiebf/Blog\r\n$ git fetch origin\r\n$ git checkout gh-pages",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
