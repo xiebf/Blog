@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document Download by http://www.codefans.net*/
+
+ul{
+	list-style:none;
+}
+
+.clear{
+	clear:both;
+}
+
+
+.month-container{
+	background:#fffbdf;
+	width:280px;
+	height:auto;
+	margin:30px auto 0;
+	float:right;
+	margin-right: 46px;
+	margin-top: 50px;
+	box-shadow:2px 2px 8px 1px rgba(0,0,0,0.6);
+	border: 2px solid #fff;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+
+.month-head{
+	background:#fffbdf;
+	width:280px;
+	height:23px;
+    font:16px "microsoft yahei";
+	text-shadow:2px 2px 3px #FFF;
+	text-align:center;
+}
+
+.month-head span {
+    color: #ffb186;
+    border-color: #fffbdf;
+	line-height:21px;
+}
+
+
+.month-cell {
+    float: left;
+	width:38px;
+	height:25px;
+	background:#F5F5F5;
+	border:1px solid #FEFEFE;
+}
+
+.month-cell:active{
+	box-shadow:inset 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.month-cell span {
+    display: block;
+    color: #cccccc;
+    font:14px "microsoft yahei";
+    text-align: center;
+	line-height:23px;
+    cursor:pointer;
+}
+
+.month-cell.active span {
+    border-color: #cccccc;
+}
+
+.month-cell.pink {
+    background: #fffbdf;
+}
+
+.month-cell.pink span {
+    color: #ffb186;
+    border-color: #fffbdf;
+}
+
+.month-cell.pink.active span {
+    border-color: #ffe295;
+}
+
+.month-cell.orange {
+    background: #fff5b4;
+}
+
+.month-cell.orange span {
+    color: #ffaf6e;
+    border-color: #fff5b4;
+}
+
+.month-cell.orange.active span {
+    border-color: #ffcf71;
+}
+
+.month-cell.red {
+    background: #ff6840;
+}
+
+.month-cell.red span {
+    color: #ffffff;
+    border-color: #ff6840;
+}
+
+
+.month-cell.blue {
+    background: #5bb5ec;
+}
+
+.month-cell.blue span {
+    color: #ffffff;
+    border-color: #5bb5ec;
+}
+
+
+.flipContainer{
+	width:300px;
+	height:100px;
+	background:#FFF;
+	padding:10px;
+}
+
+.flip{
+	background:url(../images/filmstrip.png);
+	float:left;
+	width:53px;
+	height:103px;
+}
