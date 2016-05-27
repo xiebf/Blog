@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+input[type="text"], select {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+#header, #content, #foot {
+    width:  80%;
+}
+#header h3 {
+    text-align: center;
+    background-color: #0a8dce;
+    color: #fff;
+    padding: 10px 0;
+}
+#header, #content, #content .ke-container, #foot {
+    margin: 0 auto;
+}
+#content textarea {
+    width: 100%;
+    height: 450px;
+}
+.col-xs-1, .col-xs-11 {
+	padding: 0;
+}
+.clear:after {
+	content: "";
+	clear: both;
+	display:block;
+	visibility: none;
+}
+.clear {
+	zoom: 1;
+}
+.publish {
+	color: #fff;
+	background-color: #09c;
+}
